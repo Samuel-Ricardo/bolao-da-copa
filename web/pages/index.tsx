@@ -17,6 +17,8 @@ export const getServerSideProps = async () => {
   const data = await response.json()
 
   return {
-    props: data.count,
+    props: {
+      count: data.count
+    },
   }
 }
