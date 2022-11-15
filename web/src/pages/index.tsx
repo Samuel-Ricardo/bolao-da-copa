@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FormEvent, useState } from "react";
-import { avatars_example, logo } from "../assets";
+import { app_preview, avatars_example, check_icosn as check_icon, logo } from "../assets";
 import { api } from "../lib/axios";
 
 interface IHomeProps {
@@ -64,7 +64,33 @@ export default function Home(props: IHomeProps) {
             Criar meu bolão :D
           </button>
         </form>
+
+        <div className="mt-10 pt-10 border-t border-gray-600 flex items-center justify-between text-gray-100">
+          <div className="flex items-center gap-6">
+            <Image src={check_icon} alt="check icon"/>
+            <div className="flex flex-col">
+              <span className="font-bold text-2xl">+ de {props.poolCount -1}</span>
+              <span>Bolões criados</span>
+            </div>
+          </div>
+
+          <div className="w-px h-14 bg-gray-600"/>
+            
+          <div className="flex items-center gap-6">
+            <Image src={check_icon} alt="" />
+            <div className="flex flex-col">
+              <span className="font-bold text-2xl">+ de {props.guessCount - 1}</span>
+              <span>Palpites enviados</span>
+            </div>
+          </div>
+        </div>
       </main>
+
+      <Image
+        src={app_preview}
+        alt="Dois celulares exibindo uma prévia da aplicação do NLW Copa"
+        quality={100}
+      />
     </div>
   )
 }
