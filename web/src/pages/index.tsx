@@ -1,5 +1,7 @@
 interface HomeProps {
-  count: number;
+  poolCount: number;
+  guessCount: number;
+  userCount: number;
 }
 
 export default function Home(props: HomeProps) {
@@ -7,7 +9,7 @@ export default function Home(props: HomeProps) {
     <div>
       <h1>Hello World :D</h1>
       
-      <p>Count: {props.count}</p>
+      <p>Count: {props.poolCount}</p>
       </div>
   )
 }
