@@ -1,4 +1,3 @@
-import '../style/global.css'
 import Image from "next/image";
 import { FormEvent, useState } from "react";
 import { app_preview, avatars_example, check_icosn as check_icon, logo } from "../assets";
@@ -41,10 +40,10 @@ export default function Home(props: IHomeProps) {
         </h1>
 
         <div className="mt-10 flex items-center gap-2">
-          <Image src={avatars_example} alt="avatar example" />
+          <Image src={avatars_example} alt="avatar example" quality={100} />
 
           <strong className="text-gray-100 text-xl">
-            <span className="text-ignite-500">+ de {props.userCount - 1}</span> Pessoas já estão usando! :D
+            <span className="text-ignite-500">+ de {props.userCount}</span> Pessoas já estão usando! :D
           </strong>
         </div>
 
@@ -70,7 +69,7 @@ export default function Home(props: IHomeProps) {
           <div className="flex items-center gap-6">
             <Image src={check_icon} alt="check icon"/>
             <div className="flex flex-col">
-              <span className="font-bold text-2xl">+ de {props.poolCount -1}</span>
+              <span className="font-bold text-2xl">+ de {props.poolCount}</span>
               <span>Bolões criados</span>
             </div>
           </div>
@@ -80,7 +79,7 @@ export default function Home(props: IHomeProps) {
           <div className="flex items-center gap-6">
             <Image src={check_icon} alt="" />
             <div className="flex flex-col">
-              <span className="font-bold text-2xl">+ de {props.guessCount - 1}</span>
+              <span className="font-bold text-2xl">+ de {props.guessCount}</span>
               <span>Palpites enviados</span>
             </div>
           </div>
