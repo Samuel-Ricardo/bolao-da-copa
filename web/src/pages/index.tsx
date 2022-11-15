@@ -1,4 +1,4 @@
-interface HomeProps {
+interface IHomeProps {
   poolCount: number;
   guessCount: number;
   userCount: number;
