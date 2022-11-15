@@ -39,6 +39,15 @@ export default function Home(props: IHomeProps) {
           Crie seu próprio bolão da copa e compartilhe entre amigos!
         </h1>
 
+        <div className="mt-10 flex items-center gap-2">
+          <Image src={avatars_example} alt="avatar example" />
+
+          <strong className="text-gray-100 text-xl">
+            <span className="text-ignite-500">+ de {props.userCount - 1}</span> Pessoas já estão usando! :D
+          </strong>
+        </div>
+
+
       </main>
     </div>
   )
