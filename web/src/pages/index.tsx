@@ -47,7 +47,23 @@ export default function Home(props: IHomeProps) {
           </strong>
         </div>
 
+        <form onSubmit={createPool} className="mt-10 flex gap-2">
+          <input
+            className="flex-1 px-6 py-4 rounded bg-gray-800 border border-gray-600 text-sm text-gray-100"
+            type="text"
+            required
+            placeholder="Qual o nome do seu bolão?"
+            value={poolTitle}
+            onChange={event => setPoolTitle(event.target.value)}
+          />
 
+          <button 
+            className="bg-yellow-500 px-6 py-4 rounded text-gray-900 font-bold text-sm uppercase hover:bg-yellow-700"
+            type="submit"
+          >
+            Criar meu bolão :D
+          </button>
+        </form>
       </main>
     </div>
   )
