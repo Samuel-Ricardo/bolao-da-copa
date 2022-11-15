@@ -1,3 +1,4 @@
+import '../style/global.css'
 import Image from "next/image";
 import { FormEvent, useState } from "react";
 import { app_preview, avatars_example, check_icosn as check_icon, logo } from "../assets";
@@ -96,12 +97,21 @@ export default function Home(props: IHomeProps) {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch('http://localhost:3333/pools/count')
-  const data = await response.json()
+ const [
+    poolCountResponse,
+    guessCountResponse,
+    userCountResponse
+ ] = await Promise.all([
+  api.get('pools/count'),
+  api.get('guesses/count'),
+  api.get("users/count")
+ ])
 
-  return {
-    props: {
-      count: data.count
-    },
+ return {
+  props: {
+    poolCount: poolCountResponse.data.count,
+    guessCount: guessCountResponse.data.count,
+    userCount: userCountResponse.data.count
   }
+ }
 }
