@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { FormEvent, useState } from "react";
+import { avatars_example, logo } from "../assets";
 import { api } from "../lib/axios";
 
 interface IHomeProps {
@@ -29,11 +31,16 @@ export default function Home(props: IHomeProps) {
   }
 
   return (
-    <div>
-      <h1>Hello World :D</h1>
-      
-      <p>Count: {props.poolCount}</p>
-      </div>
+    <div className="max-w-[1124px] h-screen mx-auto grid grid-cols-2 gap-28 items-center">
+      <main>
+        <Image src={logo} alt="NLW Copa Logo"/>
+        
+        <h1 className="mt-14 text-white text-5xl font-bold leading-tight"> 
+          Crie seu próprio bolão da copa e compartilhe entre amigos!
+        </h1>
+
+      </main>
+    </div>
   )
 }
 
