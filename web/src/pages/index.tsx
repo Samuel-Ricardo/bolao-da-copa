@@ -16,7 +16,7 @@ export default function Home(props: IHomeProps) {
     event.preventDefault();
 
     try {
-      const response = await api.post('/pools', {title:poolTitle})
+     const response = await api.post('pools', {title:poolTitle})
 
       const {code} = response.data;
       await navigator.clipboard.writeText(code);
@@ -96,21 +96,27 @@ export default function Home(props: IHomeProps) {
 }
 
 export const getServerSideProps = async () => {
+
  const [
     poolCountResponse,
     guessCountResponse,
     userCountResponse
  ] = await Promise.all([
-  api.get('pools/count'),
+  api.get('pool/count'),
   api.get('guesses/count'),
   api.get("users/count")
  ])
 
+
+ const poolCount = poolCountResponse.data.count
+ const guessCount = guessCountResponse.data.count
+ const userCount = userCountResponse.data.count
+
  return {
   props: {
-    poolCount: poolCountResponse.data.count,
-    guessCount: guessCountResponse.data.count,
-    userCount: userCountResponse.data.count
+   poolCount: poolCount? poolCount : 0,
+   guessCount: guessCount? guessCount : 0,
+   userCount: userCount? userCount : 0
   }
  }
 }
