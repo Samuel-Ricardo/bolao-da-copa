@@ -82,6 +82,8 @@
   :building_construction: | Technologies and Concepts Studied:
 </h2>
 
+  > <a href='https://reactjs.org/docs/create-a-new-react-app.html'> <img width='40px' src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg'> </a>
+
   - ReactJS
   - NextJS
   - TailwindCSS
@@ -99,7 +101,7 @@
 
   > Among Others...
 
-#
+  #
 
 <h2 id="app">
   💻 | Application:
@@ -110,3 +112,35 @@
 - Current Version: <b style="color: #8a4af3;"> 1.0.0 </b>
 
 #
+
+<h2 id="run-project"> 
+   👨‍💻 | How to use
+</h2>
+
+### Open your Git Terminal and clone this repository
+
+```git
+  $ git clone "git@github.com:Samuel-Ricardo/bolao-da-copa.git"
+```
+
+### Make Pull
+
+```git
+  $ git pull "git@github.com:Samuel-Ricardo/bolao-da-copa.git"
+```
+
+
+You need to have `NodeJS` on your machine and a package manager (`npm`, `yarn`, or other...) to interpret the code and install the dependecies.
+
+
+```bash
+  
+  # To install all the dependencies 
+  $ yarn  
+  $ npm install
+
+  # To run the project
+  $ yarn run dev
+  $ npm run dev
+
+```
