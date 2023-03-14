@@ -52,6 +52,14 @@
 
 <br>
 
-<p id="project">
+<p id="project"/>
 
 <h2>  :artificial_satellite: About:  </h2>
+
+<p align="justify">
+  ...
+</p>
+
+- Site: <a href="https://bolao-da-copa-xi.vercel.app/">Bolão da Copa - landing page</a> 
+
+
