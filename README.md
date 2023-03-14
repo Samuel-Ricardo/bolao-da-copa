@@ -8,16 +8,17 @@
 
 <h4 align="center" >🚀 🟪 Next Level Week - Copa 2022 🟪 🚀</h4>
 
+
+
+<h4 align="center"> Application developed during a Full Stack Event, the <a href="https://github.com/topics/next-level-week">Next Level Week #10</a> promoted by <a href="https://www.rocketseat.com.br/">@Rocketseat</a></h4>
+
 #
-
-<h4 align="center"> Application developed during a Full Stack Event, the <a href="https://github.com/topics/next-level-week">Next Level Week</a> promoted by <a href="https://www.rocketseat.com.br/">@Rocketseat</a> #next-level-week</h4>
-
 <br>
 
-<p>:D</p>
+<p align="center"><img src="https://github.com/rocketseat-education/nlw-copa-ignite/raw/main/.github/logo.svg"/></p>
 
-<br>
 
+#
 <p align="center">
   |&nbsp;&nbsp;
   <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -47,9 +48,10 @@
     <img width="64px" src='https://seeklogo.com/images/R/rocketseat-logo-666CE4B396-seeklogo.com.png'/> 
   </a>
 
-
 </h1>
 
 <br>
 
+<p id="project">
 
+<h2>  :artificial_satellite: About:  </h2>
