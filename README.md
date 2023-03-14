@@ -99,3 +99,14 @@
 
   > Among Others...
 
+#
+
+<h2 id="app">
+  💻 | Application:
+</h2>
+
+> <a href="https://bolao-da-copa-xi.vercel.app/"> <img src="./readme_files/empty.png"> </a>
+- This Site is hosted on <a style="color: #8a4af3;" href='https://vercel.com/'> Vercel </a> 
+- Current Version: <b style="color: #8a4af3;"> 1.0.0 </b>
+
+#
