@@ -10,7 +10,7 @@
 
 
 
-<h4 align="center"> Application developed during a Full Stack Event, the <a href="https://github.com/topics/next-level-week">Next Level Week #10</a> promoted by <a href="https://www.rocketseat.com.br/">@Rocketseat</a></h4>
+<h4 align="center"> Application developed during a Full Stack Event, the <a style="color: #8a4af3;" href="https://github.com/topics/next-level-week">Next Level Week #10</a> promoted by <a style="color: #8a4af3;" href="https://www.rocketseat.com.br/">@Rocketseat</a></h4>
 
 #
 <br>
@@ -21,11 +21,11 @@
 #
 <p align="center">
   |&nbsp;&nbsp;
-  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#app">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a style="color: #8a4af3;" href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a style="color: #8a4af3;" href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a style="color: #8a4af3;" href="#app">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a style="color: #8a4af3;" href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a style="color: #8a4af3;" href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 #
@@ -60,6 +60,14 @@
   ...
 </p>
 
-- Site: <a href="https://bolao-da-copa-xi.vercel.app/">Bolão da Copa - landing page</a> 
+- Site: <a  style="color: #8a4af3;" href="https://bolao-da-copa-xi.vercel.app/">Bolão da Copa - landing page</a> 
 
+> <a href="https://bolao-da-copa-xi.vercel.app/"> <img src="./readme_files/created.png"> </a>
 
+ - Repo: [Backend] - <a style="color: #8a4af3;" href="https://github.com/Samuel-Ricardo/bolao-da-copa_api">Bolão Da Copa - [API]</a>
+ - Repo: [Mobile] - <a style="color: #8a4af3;" href="https://github.com/Samuel-Ricardo/bolao-da-copa_mobile">Bolão Da Copa - [Mobile]</a>
+  
+  <br>
+
+- This Site is hosted on <a style="color: #8a4af3;" href='https://vercel.com/'> Vercel </a> 
+- Current Version: <b> 1.0.0 </b> 
