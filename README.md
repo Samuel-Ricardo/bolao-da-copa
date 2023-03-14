@@ -44,7 +44,7 @@
     <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=LinkedIn'/> 
   </a>
 
-  <a herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
+  <a target="_blank" herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
     <img width="64px" src='https://seeklogo.com/images/R/rocketseat-logo-666CE4B396-seeklogo.com.png'/> 
   </a>
 
