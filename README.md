@@ -57,7 +57,11 @@
 <h2>  :artificial_satellite: About:  </h2>
 
 <p align="justify">
-  ...
+  This app is part of a full stack project with a mobile version and global API. You can create a betting group about the 2022 Qatar Soccer Wolrd Cup 🏆 and invite your friends to bet with you! :D
+</p>
+
+<p align="justify">
+  This application is a landing page, is a page that has all elements to convert your visitor into a Lead or client oportunity. Here he can have a overveiw about the aplication and a call to action (create a betting group)
 </p>
 
 - Site: <a  style="color: #8a4af3;" href="https://bolao-da-copa-xi.vercel.app/">Bolão da Copa - landing page</a> 
