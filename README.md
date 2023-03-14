@@ -54,7 +54,7 @@
 
 <p id="project"/>
 
-<h2>  :artificial_satellite: About:  </h2>
+<h2>  | :artificial_satellite: About:  </h2>
 
 <p align="justify">
   This app is part of a full stack project with a mobile version and global API. You can create a betting group about the 2022 Qatar Soccer Wolrd Cup 🏆 and invite your friends to bet with you! :D
@@ -74,4 +74,28 @@
   <br>
 
 - This Site is hosted on <a style="color: #8a4af3;" href='https://vercel.com/'> Vercel </a> 
-- Current Version: <b> 1.0.0 </b> 
+- Current Version: <b> 1.0.0 </b>
+
+#
+
+<h2 id="techs">
+  :building_construction: | Technologies and Concepts Studied:
+</h2>
+
+  - ReactJS
+  - NextJS
+  - TailwindCSS
+  - JavaScript
+  - TypeScript
+  - TSX
+  - Axios
+  - Consume API
+  - Clean Code
+  - Asynchronous Functions 
+  - Google Fonts 
+  - HTML
+  - CSS
+  - Deploy
+
+  > Among Others...
+
