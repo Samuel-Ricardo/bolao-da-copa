@@ -132,6 +132,8 @@
 
 You need to have `NodeJS` on your machine and a package manager (`npm`, `yarn`, or other...) to interpret the code and install the dependecies.
 
+> <a target="_blank" href="https://nodejs.org/en/"> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> </a>
+
 
 ```bash
   
@@ -144,3 +146,7 @@ You need to have `NodeJS` on your machine and a package manager (`npm`, `yarn`, 
   $ npm run dev
 
 ```
+
+#
+
+
